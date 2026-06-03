@@ -1,0 +1,353 @@
+[
+  {
+    "id": 1,
+    "pubmed": "17898715",
+    "doi": "10.1016/j.cell.2007.02.005",
+    "title": "Chromatin modifications and their function",
+    "journal": "Cell",
+    "year": 2007,
+    "author": "Kouzarides T"
+  },
+  {
+    "id": 2,
+    "pubmed": "21321607",
+    "doi": "10.1038/cr.2011.22",
+    "title": "Regulation of chromatin by histone modifications",
+    "journal": "Cell Research",
+    "year": 2011,
+    "author": "Bannister AJ, Kouzarides T"
+  },
+  {
+    "id": 3,
+    "pubmed": "31645732",
+    "doi": "10.1038/s41586-019-1678-1",
+    "title": "Metabolic regulation of gene expression by histone lactylation",
+    "journal": "Nature",
+    "year": 2019,
+    "author": "Zhang D, Tang Z, Huang H, et al."
+  },
+  {
+    "id": 4,
+    "pubmed": "33199625",
+    "doi": "10.1073/pnas.2009778117",
+    "title": "BCAP regulates macrophage transition by promoting histone lactylation",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": 2020,
+    "author": "Irizarry-Caro RA, et al."
+  },
+  {
+    "id": 5,
+    "pubmed": "32839595",
+    "doi": "10.1038/s42255-020-0267-9",
+    "title": "Glis1 facilitates induction of pluripotency via histone lactylation",
+    "journal": "Nature Metabolism",
+    "year": 2020,
+    "author": "Li L, Chen K, Wang T, et al."
+  },
+  {
+    "id": 6,
+    "pubmed": "30547401",
+    "doi": "10.1007/978-1-4939-8882-2_8",
+    "title": "Unsupervised gene network inference with decision trees",
+    "journal": "Methods in Molecular Biology",
+    "year": 2019,
+    "author": "Huynh-Thu VA, Geurts P"
+  },
+  {
+    "id": 7,
+    "pubmed": "30445495",
+    "doi": "10.1093/bioinformatics/bty916",
+    "title": "GRNBoost2 and Arboreto: efficient GRN inference",
+    "journal": "Bioinformatics",
+    "year": 2019,
+    "author": "Moerman T, et al."
+  },
+  {
+    "id": 8,
+    "pubmed": "28292907",
+    "doi": "10.1073/pnas.1611835114",
+    "title": "Overcoming catastrophic forgetting in neural networks",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": 2017,
+    "author": "Kirkpatrick J, et al."
+  },
+  {
+    "id": 9,
+    "pubmed": "30780045",
+    "doi": "10.1016/j.neunet.2019.01.012",
+    "title": "Continual lifelong learning with neural networks: a review",
+    "journal": "Neural Networks",
+    "year": 2019,
+    "author": "Parisi GI, et al."
+  },
+  {
+    "id": 10,
+    "pubmed": "30476243",
+    "doi": "10.1093/nar/gky1131",
+    "title": "STRING v11: protein-protein association networks",
+    "journal": "Nucleic Acids Research",
+    "year": 2019,
+    "author": "Szklarczyk D, et al."
+  },
+  {
+    "id": 11,
+    "pubmed": "37953337",
+    "doi": "10.1093/nar/gkad1049",
+    "title": "Ensembl 2024",
+    "journal": "Nucleic Acids Research",
+    "year": 2024,
+    "author": "Harrison PW, et al."
+  },
+  {
+    "id": 12,
+    "pubmed": "29155950",
+    "doi": "10.1093/nar/gkx1098",
+    "title": "Ensembl 2018",
+    "journal": "Nucleic Acids Research",
+    "year": 2018,
+    "author": "Zerbino DR, et al."
+  },
+  {
+    "id": 13,
+    "pubmed": "30971806",
+    "doi": "10.1038/s41576-019-0122-6",
+    "title": "Deep learning: new computational modelling for genomics",
+    "journal": "Nature Reviews Genetics",
+    "year": 2019,
+    "author": "Eraslan G, et al."
+  },
+  {
+    "id": 14,
+    "pubmed": "33414597",
+    "doi": "10.1038/s41592-020-01005-4",
+    "title": "Effective gene expression prediction from sequence",
+    "journal": "Nature Methods",
+    "year": 2021,
+    "author": "Avsec Z, et al."
+  },
+  {
+    "id": 15,
+    "pubmed": "27197224",
+    "doi": "10.1101/gr.200535.115",
+    "title": "Basset: learning regulatory code with deep CNNs",
+    "journal": "Genome Research",
+    "year": 2016,
+    "author": "Kelley DR, et al."
+  },
+  {
+    "id": 16,
+    "pubmed": "23193287",
+    "doi": "10.1038/nature11247",
+    "title": "An integrated encyclopedia of DNA elements (ENCODE)",
+    "journal": "Nature",
+    "year": 2012,
+    "author": "ENCODE Project Consortium"
+  },
+  {
+    "id": 17,
+    "pubmed": "22955991",
+    "doi": "10.1038/nature11245",
+    "title": "Architecture of the human regulatory network",
+    "journal": "Nature",
+    "year": 2012,
+    "author": "Neph S, et al."
+  },
+  {
+    "id": 18,
+    "pubmed": "25693563",
+    "doi": "10.1038/nature14248",
+    "title": "Integrative analysis of 111 reference human epigenomes",
+    "journal": "Nature",
+    "year": 2015,
+    "author": "Roadmap Epigenomics Consortium"
+  },
+  {
+    "id": 19,
+    "pubmed": "17571346",
+    "doi": "10.1186/gb-2008-9-9-r137",
+    "title": "Model-based analysis of ChIP-seq (MACS)",
+    "journal": "Genome Biology",
+    "year": 2008,
+    "author": "Zhang Y, et al."
+  },
+  {
+    "id": 20,
+    "pubmed": "22955616",
+    "doi": "10.1038/nature11233",
+    "title": "Landscape of transcription in human cells",
+    "journal": "Nature",
+    "year": 2012,
+    "author": "Djebali S, et al."
+  },
+  {
+    "id": 21,
+    "pubmed": "31901298",
+    "doi": "10.1016/j.tibs.2019.12.004",
+    "title": "Histone lactylation: a new role for glucose metabolism",
+    "journal": "Trends in Biochemical Sciences",
+    "year": 2020,
+    "author": "Liberti MV, Locasale JW"
+  },
+  {
+    "id": 22,
+    "pubmed": "29636404",
+    "doi": "10.1016/j.cels.2018.03.012",
+    "title": "Learning important features through propagating activation differences",
+    "journal": "Cell Systems",
+    "year": 2018,
+    "author": "Shrikumar A, et al."
+  },
+  {
+    "id": 23,
+    "pubmed": "32001715",
+    "doi": "10.1038/s41588-020-0565-x",
+    "title": "Transcriptome and translatome co-evolution in mammals",
+    "journal": "Nature Genetics",
+    "year": 2020,
+    "author": "Wang ZY, et al."
+  },
+  {
+    "id": 24,
+    "pubmed": "36138128",
+    "doi": "10.1038/s41586-022-05324-8",
+    "title": "A multi-tissue gene expression atlas of the mouse",
+    "journal": "Nature",
+    "year": 2022,
+    "author": ""
+  },
+  {
+    "id": 25,
+    "pubmed": "26030502",
+    "doi": "10.1126/science.1253858",
+    "title": "Evolutionary landscape of alternative splicing in vertebrates",
+    "journal": "Science",
+    "year": 2012,
+    "author": "Merkin J, et al."
+  },
+  {
+    "id": 26,
+    "pubmed": "29276094",
+    "doi": "10.1038/s41580-021-00440-3",
+    "title": "A guide to machine learning for biologists",
+    "journal": "Nature Reviews Molecular Cell Biology",
+    "year": 2022,
+    "author": "Greener JG, et al."
+  },
+  {
+    "id": 27,
+    "pubmed": "25413387",
+    "doi": "10.1126/science.1247651",
+    "title": "Massively parallel single-cell RNA-seq",
+    "journal": "Science",
+    "year": 2014,
+    "author": "Jaitin DA, et al."
+  },
+  {
+    "id": 28,
+    "pubmed": "33526749",
+    "doi": "10.1126/science.1069983",
+    "title": "Stochastic gene expression in a single cell",
+    "journal": "Science",
+    "year": 2002,
+    "author": "Elowitz MB, et al."
+  },
+  {
+    "id": 29,
+    "pubmed": "26912682",
+    "doi": "10.1038/ncb3342",
+    "title": "Lactate: a metabolic key player in cancer",
+    "journal": "Nature Reviews Cancer",
+    "year": 2016,
+    "author": "San-Millan I, Brooks GA"
+  },
+  {
+    "id": 30,
+    "pubmed": "26420828",
+    "doi": "10.7554/eLife.27041",
+    "title": "The Human Cell Atlas",
+    "journal": "eLife",
+    "year": 2017,
+    "author": "Regev A, et al."
+  },
+  {
+    "id": 31,
+    "pubmed": "40244246",
+    "doi": "10.3390/ijms26073368",
+    "title": "Lactylation in glioblastoma: epigenetic modifier",
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2025,
+    "author": "Zhao Q, et al."
+  },
+  {
+    "id": 32,
+    "pubmed": "30084980",
+    "doi": "10.1093/bioinformatics/bty510",
+    "title": "Sincell: cell-state hierarchies from scRNA-seq",
+    "journal": "Bioinformatics",
+    "year": 2018,
+    "author": "Julia M, et al."
+  },
+  {
+    "id": 33,
+    "pubmed": "25392416",
+    "doi": "10.1093/bioinformatics/btu638",
+    "title": "BEDOPS: high-performance genomic feature operations",
+    "journal": "Bioinformatics",
+    "year": 2012,
+    "author": "Neph S, et al."
+  },
+  {
+    "id": 34,
+    "pubmed": "22955991",
+    "doi": "10.1101/gr.136184.111",
+    "title": "ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia",
+    "journal": "Genome Research",
+    "year": 2012,
+    "author": "Landt SG, et al."
+  },
+  {
+    "id": 35,
+    "pubmed": "39122951",
+    "doi": "10.1038/s41592-024-02354-y",
+    "title": "Language models for biological research: a primer",
+    "journal": "Nature Methods",
+    "year": 2024,
+    "author": "Simon E, Swanson K, Zou J"
+  },
+  {
+    "id": 36,
+    "pubmed": "31081014",
+    "doi": "10.1093/bioinformatics/btz259",
+    "title": "DeepTACT: predicting 3D chromatin contacts",
+    "journal": "Bioinformatics",
+    "year": 2019,
+    "author": ""
+  },
+  {
+    "id": 37,
+    "doi": "10.48550/arXiv.1609.02907",
+    "pubmed": "",
+    "title": "Semi-supervised classification with graph convolutional networks",
+    "journal": "International Conference on Learning Representations (ICLR)",
+    "year": 2017,
+    "author": "Kipf TN, Welling M"
+  },
+  {
+    "id": 38,
+    "doi": "10.48550/arXiv.1710.10903",
+    "pubmed": "",
+    "title": "Graph attention networks",
+    "journal": "International Conference on Learning Representations (ICLR)",
+    "year": 2018,
+    "author": "Velickovic P, Cucurull G, Casanova A, et al."
+  },
+  {
+    "id": 39,
+    "doi": "10.1038/s41592-024-02523-z",
+    "pubmed": "",
+    "title": "Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
+    "journal": "Nature Methods",
+    "year": 2024,
+    "author": "Dalla-Torre H, Gonzalez L, Mendoza-Revilla J, et al."
+  }
+]

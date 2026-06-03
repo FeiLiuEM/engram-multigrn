@@ -1,0 +1,7 @@
+torch>=2.0
+numpy>=1.21
+pyBigWig>=0.3
+requests>=2.25
+sympy>=1.9
+matplotlib>=3.5
+seaborn>=0.12

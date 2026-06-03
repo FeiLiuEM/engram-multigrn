@@ -1,0 +1,28 @@
+[project]
+name = "engram-multigrn"
+version = "1.0.0"
+description = "Domain-Isolated Conditional Memory for Multi-Species Gene Regulatory Network Inference"
+authors = [{name = "Authors", email = "author@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = ""}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.21",
+    "pyBigWig>=0.3",
+    "requests>=2.25",
+    "sympy>=1.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "matplotlib>=3.5",
+    "seaborn>=0.12",
+]
