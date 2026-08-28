@@ -237,6 +237,22 @@ Results: 3 passed, 0 failed out of 3
 ✅ All tests passed.
 ```
 
+## Reproducibility
+
+All manuscript results were produced with `PYTHONHASHSEED=0`, which makes the
+domain-hash multipliers in `DeterministicHash.register_domain` deterministic
+across processes (they rely on Python's built-in string `hash()`). **Always
+prepend `PYTHONHASHSEED=0` to any training/evaluation command**:
+
+```bash
+PYTHONHASHSEED=0 python scripts/train_full.py
+PYTHONHASHSEED=0 python scripts/incremental_multigrn_pipeline.py
+```
+
+When the package is imported without `PYTHONHASHSEED=0`, a warning is emitted;
+notes on the exact seed setup (42 for data splits, 43 for the mouse split) are
+in the manuscript Methods (§4.6).
+
 ---
 
 ## Figure Reproduction
