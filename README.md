@@ -1,8 +1,8 @@
 # Engram-MultiGRN
 
-**Domain-Isolated Conditional Memory for Multi-Species Gene Regulatory Network Inference**
+**Domain-Isolated Conditional Memory for Incremental, Queryable Cross-Domain Gene Regulation Knowledge**
 
-A neural architecture that learns gene regulatory networks across biological domains without forgetting — no gradient freezing, no elastic weight consolidation, no rehearsal. Each domain (species × cell type × histone modification) gets independent gate and output head parameters, stored in domain-keyed ModuleDict entries. The shared foundation (gene embeddings, hash memory, context encoder) stays fixed. Adding a new domain costs ~43K parameters (<0.2% of the 41.6M total).
+A neural architecture that learns gene regulatory networks across biological domains without forgetting — no gradient freezing, no elastic weight consolidation, no rehearsal. Each domain (species × cell type × histone modification) gets independent gate and output head parameters, stored in domain-keyed ModuleDict entries. The shared foundation (gene embeddings, hash memory, context encoder) stays fixed. Adding a new domain costs ~43K parameters (<0.2% of the 41.6M total). The resulting model is a compact, incrementally maintainable knowledge store (~13 GB of source data encoded in a 167-MB network, O(1) hash-addressable inference) that can be served as a standard API and consumed by arbitrary downstream tools, including LLM tool adapters such as MCP.
 
 <div align="center">
 
@@ -253,6 +253,16 @@ When the package is imported without `PYTHONHASHSEED=0`, a warning is emitted;
 notes on the exact seed setup (42 for data splits, 43 for the mouse split) are
 in the manuscript Methods (§4.6).
 
+## Serving as a knowledge interface
+
+The trained model is a compact, incrementally maintainable knowledge store:
+~41.7M parameters (167 MB, FP32), O(1) hash-addressable inference, and ~43K
+parameters per added domain. Because inference is stateless and keyed by
+(species × cell line × mark × condition), the model can be deployed behind a
+standard API and consumed by REST/SDK clients, workflow engines, or LLM tool
+adapters (e.g., MCP). A reference serving script is under development; model
+checkpoints and query recipes are documented in the Data section above.
+
 ---
 
 ## Figure Reproduction
@@ -311,7 +321,7 @@ If you use Engram-MultiGRN in your research, please cite:
 
 ```bibtex
 @article{engram2026,
-  title={Engram-MultiGRN: Domain-Isolated Conditional Memory for Cross-Species Gene Regulatory Network Inference},
+  title={Engram-MultiGRN: Domain-Isolated Conditional Memory for Incremental, Queryable Cross-Domain Gene Regulation Knowledge},
   author={...},
   journal={bioRxiv},
   year={2026},
