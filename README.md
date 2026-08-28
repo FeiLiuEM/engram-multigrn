@@ -333,8 +333,4 @@ If you use Engram-MultiGRN in your research, please cite:
 
 ## License
 
-[License information to be added]
-
-## Contact
-
-[Corresponding author email to be added]
+This project is licensed under the MIT License.

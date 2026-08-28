@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.npy
+*.bw
+*.bedgraph
+*.narrowPeak
+*.tar
+*.zip
+*.gz
+figures/
+.venv/
+.DS_Store
+*.egg-info/
+dist/
+build/
+# Don't ignore data directory - contains pre-computed feature files
