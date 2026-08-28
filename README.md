@@ -2,7 +2,7 @@
 
 **Domain-Isolated Conditional Memory for Multi-Species Gene Regulatory Network Inference**
 
-A neural architecture that learns gene regulatory networks across biological domains without forgetting — no gradient freezing, no elastic weight consolidation, no rehearsal. Each domain (species × cell type × histone modification) gets independent gate and output head parameters, stored in domain-keyed ModuleDict entries. The shared foundation (gene embeddings, hash memory, context encoder) stays fixed. Adding a new domain costs ~50K parameters (<0.2% of the 37M total).
+A neural architecture that learns gene regulatory networks across biological domains without forgetting — no gradient freezing, no elastic weight consolidation, no rehearsal. Each domain (species × cell type × histone modification) gets independent gate and output head parameters, stored in domain-keyed ModuleDict entries. The shared foundation (gene embeddings, hash memory, context encoder) stays fixed. Adding a new domain costs ~43K parameters (<0.2% of the 41.6M total).
 
 <div align="center">
 
@@ -35,7 +35,7 @@ A neural architecture that learns gene regulatory networks across biological dom
 
 ```bash
 # Clone the repository
-git clone https://github.com/user/engram-multigrn.git
+git clone https://github.com/FeiLiuEM/engram-multigrn.git
 cd engram-multigrn
 
 # Create virtual environment
@@ -71,8 +71,8 @@ model = EngramMultiGRN(
     ctx_input_dim=102
 ).cuda()
 
-model.add_species("human", vocab_size=19298, d_ctx=102)
-model.add_species("mouse", vocab_size=26264, d_ctx=102)
+model.add_species("human", num_genes=19298, ctx_input_dim=102)
+model.add_species("mouse", num_genes=26264, ctx_input_dim=102)
 
 # Forward pass
 ortho_ids = torch.randint(0, cfg.n_ortho_groups, (64,)).cuda()
@@ -101,10 +101,10 @@ Engram-MultiGRN has five components:
 | 4. Domain-isolated multi-head gate | Per-domain RMSNorm + projections (key/value Linear 32→128) | ~17K/domain |
 | 5. Domain-isolated output head | Per-domain 2-layer MLP (256→128→1) with GELU + dropout | ~33K/domain |
 
-**Total shared**: ~37.1M parameters  
-**Per new domain**: ~50K parameters (<0.2% overhead)
+**Total shared**: ~41.6M parameters  
+**Per new domain**: ~43K parameters (<0.2% overhead)
 
-For a detailed architecture diagram, see `files/architecture.svg`.
+For a detailed architecture description, see the manuscript (`files/manuscript_humanized.md`).
 
 ---
 
@@ -284,3 +284,31 @@ The following files are pre-computed and included in the repository. They are su
 ### External Databases
 
 The model uses data from the following databases. Feature files are pre-processed from these sources:
+
+
+
+---
+
+## Citation
+
+If you use Engram-MultiGRN in your research, please cite:
+
+```bibtex
+@article{engram2026,
+  title={Engram-MultiGRN: Domain-Isolated Conditional Memory for Cross-Species Gene Regulatory Network Inference},
+  author={...},
+  journal={bioRxiv},
+  year={2026},
+  doi={...}
+}
+```
+
+---
+
+## License
+
+[License information to be added]
+
+## Contact
+
+[Corresponding author email to be added]
