@@ -1,0 +1,8 @@
+{
+ "kind": "plain_ref",
+ "param": null,
+ "stage1_human": 0.8146176860858114,
+ "stage2_human": 0.31545439570785166,
+ "retention_pct": 38.72422623471274,
+ "stage2_mouse": 0.26516989646989547
+}

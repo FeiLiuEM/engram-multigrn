@@ -1,0 +1,44 @@
+{
+ "shared_plain": {
+  "stage1_human": 0.8146176860858114,
+  "stage2_human": 0.23022790413238176,
+  "retention_pct": 28.262080245104045,
+  "stage2_mouse": 0.24242291242305858
+ },
+ "shared_ewc": {
+  "stage1_human": 0.7963546377153865,
+  "stage2_human": 0.16987752358886035,
+  "retention_pct": 21.33189354886055,
+  "stage2_mouse": 0.2021098104371807
+ },
+ "shared_lwf": {
+  "stage1_human": 0.8092070782916378,
+  "stage2_human": 0.6428850715975086,
+  "retention_pct": 79.44629858586248,
+  "stage2_mouse": 0.289150965183124
+ },
+ "independent_models": {
+  "stage1_human": 0.8149050118770385,
+  "stage2_human": 0.8149050118770385,
+  "retention_pct": 100.0,
+  "stage2_mouse": 0.26970566286408637
+ },
+ "joint_shared": {
+  "stage1_human": 0.7090972996321593,
+  "stage2_human": 0.7090972996321593,
+  "retention_pct": 100.0,
+  "stage2_mouse": 0.04128711579049654
+ },
+ "multigrn_isolated_v2_mouse_string": {
+  "stage1_human": 0.8142538107117662,
+  "stage2_human": 0.8139270472260914,
+  "retention_pct": 99.95986957857906,
+  "stage2_mouse": 0.28340755927527583
+ },
+ "multigrn_domain_isolated_ref_old_feats": {
+  "stage1_human": 0.8201110197897756,
+  "stage2_human": 0.8201263271093026,
+  "retention_pct": 100.0,
+  "stage2_mouse": 0.4276548016956897
+ }
+}

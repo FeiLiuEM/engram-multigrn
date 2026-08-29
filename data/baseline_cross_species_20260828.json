@@ -1,0 +1,38 @@
+{
+ "shared_plain": {
+  "stage1_human": 0.8146176860858114,
+  "stage2_human": 0.2737201536984765,
+  "retention_pct": 33.6010570815968,
+  "stage2_mouse": 0.20976678041959207
+ },
+ "shared_ewc": {
+  "stage1_human": 0.7963546377153865,
+  "stage2_human": 0.26619798541068024,
+  "retention_pct": 33.427065380614785,
+  "stage2_mouse": 0.23583336533351718
+ },
+ "shared_lwf": {
+  "stage1_human": 0.8092070782916378,
+  "stage2_human": 0.2643677879097959,
+  "retention_pct": 32.66997966304466,
+  "stage2_mouse": 0.24721838311535935
+ },
+ "independent_models": {
+  "stage1_human": 0.8149050118770385,
+  "stage2_human": 0.8149050118770385,
+  "retention_pct": 100.0,
+  "stage2_mouse": 0.2871701620818982
+ },
+ "joint_shared": {
+  "stage1_human": 0.7460678427848397,
+  "stage2_human": 0.7460678427848397,
+  "retention_pct": 100.0,
+  "stage2_mouse": 0.1498468843229753
+ },
+ "multigrn_domain_isolated_reference": {
+  "stage1_human": 0.8201110197897756,
+  "stage2_human": 0.8201263271093026,
+  "retention_pct": 100.0,
+  "stage2_mouse": 0.4276548016956897
+ }
+}

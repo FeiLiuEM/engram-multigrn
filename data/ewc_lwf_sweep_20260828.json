@@ -1,0 +1,58 @@
+[
+ {
+  "kind": "ewc",
+  "param": 1,
+  "stage1_human": 0.8146176860858114,
+  "stage2_human": 0.2529152645969716,
+  "retention_pct": 31.04711190499854,
+  "stage2_mouse": 0.26167465221027447
+ },
+ {
+  "kind": "ewc",
+  "param": 10,
+  "stage1_human": 0.802574747903639,
+  "stage2_human": 0.28146214146173065,
+  "retention_pct": 35.0698975013757,
+  "stage2_mouse": 0.2838416249669162
+ },
+ {
+  "kind": "ewc",
+  "param": 100,
+  "stage1_human": 0.8092070782916378,
+  "stage2_human": 0.22559679925944537,
+  "retention_pct": 27.87874764216291,
+  "stage2_mouse": 0.2751908685877085
+ },
+ {
+  "kind": "ewc",
+  "param": 1000,
+  "stage1_human": 0.8001156268463034,
+  "stage2_human": 0.31659738703033563,
+  "retention_pct": 39.568954337040054,
+  "stage2_mouse": 0.29347017150978866
+ },
+ {
+  "kind": "lwf",
+  "param": 0.1,
+  "stage1_human": 0.8115333766299513,
+  "stage2_human": 0.36235193725614306,
+  "retention_pct": 44.6502815153308,
+  "stage2_mouse": 0.2955776973721735
+ },
+ {
+  "kind": "lwf",
+  "param": 0.5,
+  "stage1_human": 0.8071142316781242,
+  "stage2_human": 0.3184693835332698,
+  "retention_pct": 39.457783177868045,
+  "stage2_mouse": 0.23684669986119683
+ },
+ {
+  "kind": "lwf",
+  "param": 3.0,
+  "stage1_human": 0.8087903226599442,
+  "stage2_human": 0.38618958904176204,
+  "retention_pct": 47.74903682967723,
+  "stage2_mouse": 0.26368594680822954
+ }
+]

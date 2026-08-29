@@ -1,0 +1,26 @@
+{
+ "description": "Gene-level held-out generalization for Engram-MultiGRN (H4K5la single-domain)",
+ "split": "80/20 by gene identity; held-out genes absent from training in ALL conditions",
+ "n_genes_total": 9896,
+ "n_genes_seen": 7917,
+ "n_genes_heldout": 1979,
+ "n_train": 19512,
+ "n_seen_test": 4878,
+ "n_unseen_test": 6099,
+ "R_train_subset": 0.9389977629518117,
+ "R_seen_genes_test": 0.8030259152591809,
+ "R_seen_per_condition": {
+  "H4K5la_NM2": 0.812665080728295,
+  "H4K5la_NM3": 0.8044683655176984,
+  "H4K5la_LAC2": 0.8010154577364003,
+  "H4K5la_LAC3": 0.8210041988572757
+ },
+ "R_unseen_genes_test": 0.10985184470557247,
+ "R_unseen_per_condition": {
+  "H4K5la_NM2": 0.06794110912663724,
+  "H4K5la_NM3": 0.06849789242586667,
+  "H4K5la_LAC2": 0.08118909735855977,
+  "H4K5la_LAC3": 0.06515825788095055
+ },
+ "device": "cuda"
+}

@@ -1,0 +1,149 @@
+{
+  "description": "MultiGRN cross-species incremental learning: no EWC, domain-isolated gate+output",
+  "human_h4k5la_samples": 30489,
+  "mouse_fpkm_samples": 1855,
+  "human_to_mouse": {
+    "stage1": {
+      "human_hepg2": 0.8201110197897756,
+      "mouse_fpkm": -0.04524270152146006
+    },
+    "stage2": {
+      "human_hepg2": 0.8201263271093026,
+      "mouse_fpkm": 0.4276548016956897
+    },
+    "history": [
+      {
+        "epoch": 10,
+        "stage": "S1",
+        "human_hepg2": 0.4818696644605791,
+        "mouse_fpkm": -0.05799590341936631
+      },
+      {
+        "epoch": 20,
+        "stage": "S1",
+        "human_hepg2": 0.7038731513316879,
+        "mouse_fpkm": -0.050652951180564426
+      },
+      {
+        "epoch": 30,
+        "stage": "S1",
+        "human_hepg2": 0.7717027165915572,
+        "mouse_fpkm": -0.047754410380374694
+      },
+      {
+        "epoch": 40,
+        "stage": "S1",
+        "human_hepg2": 0.8025687217215084,
+        "mouse_fpkm": -0.04635281456040748
+      },
+      {
+        "epoch": 50,
+        "stage": "S1",
+        "human_hepg2": 0.820111018952477,
+        "mouse_fpkm": -0.045242701521460094
+      },
+      {
+        "epoch": 10,
+        "stage": "S2",
+        "human_hepg2": 0.8201354799099403,
+        "mouse_fpkm": 0.26943622970832726
+      },
+      {
+        "epoch": 20,
+        "stage": "S2",
+        "human_hepg2": 0.8201472493840375,
+        "mouse_fpkm": 0.4254545956706322
+      },
+      {
+        "epoch": 30,
+        "stage": "S2",
+        "human_hepg2": 0.8201468503935879,
+        "mouse_fpkm": 0.4421244062185376
+      },
+      {
+        "epoch": 40,
+        "stage": "S2",
+        "human_hepg2": 0.8201395921793122,
+        "mouse_fpkm": 0.4340420277705978
+      },
+      {
+        "epoch": 50,
+        "stage": "S2",
+        "human_hepg2": 0.8201263267970061,
+        "mouse_fpkm": 0.4276548016956902
+      }
+    ]
+  },
+  "mouse_to_human": {
+    "stage1": {
+      "human_hepg2": 0.009398922142682994,
+      "mouse_fpkm": 0.35815903948778116
+    },
+    "stage2": {
+      "human_hepg2": 0.8607051798323545,
+      "mouse_fpkm": 0.35593619955568645
+    },
+    "history": [
+      {
+        "epoch": 10,
+        "stage": "S1",
+        "human_hepg2": -0.002249644837827196,
+        "mouse_fpkm": 0.2629271457574498
+      },
+      {
+        "epoch": 20,
+        "stage": "S1",
+        "human_hepg2": 0.009401585965712243,
+        "mouse_fpkm": 0.31163853073697
+      },
+      {
+        "epoch": 30,
+        "stage": "S1",
+        "human_hepg2": 0.009400580173516816,
+        "mouse_fpkm": 0.34347049611004543
+      },
+      {
+        "epoch": 40,
+        "stage": "S1",
+        "human_hepg2": 0.009399662344371121,
+        "mouse_fpkm": 0.351140987716247
+      },
+      {
+        "epoch": 50,
+        "stage": "S1",
+        "human_hepg2": 0.009398922869938552,
+        "mouse_fpkm": 0.35815903948778083
+      },
+      {
+        "epoch": 10,
+        "stage": "S2",
+        "human_hepg2": 0.514222281206278,
+        "mouse_fpkm": 0.35857469543790077
+      },
+      {
+        "epoch": 20,
+        "stage": "S2",
+        "human_hepg2": 0.7776310625469762,
+        "mouse_fpkm": 0.35829533110352313
+      },
+      {
+        "epoch": 30,
+        "stage": "S2",
+        "human_hepg2": 0.8295996556418345,
+        "mouse_fpkm": 0.3578483643525698
+      },
+      {
+        "epoch": 40,
+        "stage": "S2",
+        "human_hepg2": 0.8483722345237869,
+        "mouse_fpkm": 0.35694862876592637
+      },
+      {
+        "epoch": 50,
+        "stage": "S2",
+        "human_hepg2": 0.8607051796340416,
+        "mouse_fpkm": 0.3559361995556862
+      }
+    ]
+  }
+}
